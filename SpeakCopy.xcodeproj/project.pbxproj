@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01EEBF511489BCEF0021960B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EEBF501489BCEF0021960B /* Cocoa.framework */; };
+		01EEBF5B1489BCEF0021960B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01EEBF591489BCEF0021960B /* InfoPlist.strings */; };
+		01EEBF5D1489BCEF0021960B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EEBF5C1489BCEF0021960B /* main.m */; };
+		01EEBF611489BCEF0021960B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 01EEBF5F1489BCEF0021960B /* Credits.rtf */; };
+		01EEBF641489BCEF0021960B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EEBF631489BCEF0021960B /* AppDelegate.m */; };
+		01EEBF671489BCF00021960B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01EEBF651489BCF00021960B /* MainMenu.xib */; };
+		01EEBF6F1489BCF00021960B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EEBF6E1489BCF00021960B /* SenTestingKit.framework */; };
+		01EEBF701489BCF00021960B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EEBF501489BCEF0021960B /* Cocoa.framework */; };
+		01EEBF781489BCF00021960B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01EEBF761489BCF00021960B /* InfoPlist.strings */; };
+		01EEBF7B1489BCF00021960B /* SpeakCopyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EEBF7A1489BCF00021960B /* SpeakCopyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01EEBF711489BCF00021960B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01EEBF431489BCEF0021960B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01EEBF4B1489BCEF0021960B;
+			remoteInfo = SpeakCopy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01EEBF4C1489BCEF0021960B /* SpeakCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01EEBF501489BCEF0021960B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		01EEBF531489BCEF0021960B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		01EEBF541489BCEF0021960B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		01EEBF551489BCEF0021960B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01EEBF581489BCEF0021960B /* SpeakCopy-Info.plist */ = {isa = PBXFileReference; path = "SpeakCopy-Info.plist"; sourceTree = "<group>"; };
+		01EEBF5A1489BCEF0021960B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01EEBF5C1489BCEF0021960B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01EEBF5E1489BCEF0021960B /* SpeakCopy-Prefix.pch */ = {isa = PBXFileReference; path = "SpeakCopy-Prefix.pch"; sourceTree = "<group>"; };
+		01EEBF601489BCEF0021960B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		01EEBF621489BCEF0021960B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		01EEBF631489BCEF0021960B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01EEBF661489BCF00021960B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		01EEBF6D1489BCF00021960B /* SpeakCopyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakCopyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01EEBF6E1489BCF00021960B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		01EEBF751489BCF00021960B /* SpeakCopyTests-Info.plist */ = {isa = PBXFileReference; path = "SpeakCopyTests-Info.plist"; sourceTree = "<group>"; };
+		01EEBF771489BCF00021960B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01EEBF791489BCF00021960B /* SpeakCopyTests.h */ = {isa = PBXFileReference; path = SpeakCopyTests.h; sourceTree = "<group>"; };
+		01EEBF7A1489BCF00021960B /* SpeakCopyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeakCopyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01EEBF491489BCEF0021960B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01EEBF511489BCEF0021960B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01EEBF691489BCF00021960B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01EEBF6F1489BCF00021960B /* SenTestingKit.framework in Frameworks */,
+				01EEBF701489BCF00021960B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01EEBF411489BCEF0021960B = {
+			isa = PBXGroup;
+			children = (
+				01EEBF561489BCEF0021960B /* SpeakCopy */,
+				01EEBF731489BCF00021960B /* SpeakCopyTests */,
+				01EEBF4F1489BCEF0021960B /* Frameworks */,
+				01EEBF4D1489BCEF0021960B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01EEBF4D1489BCEF0021960B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01EEBF4C1489BCEF0021960B /* SpeakCopy.app */,
+				01EEBF6D1489BCF00021960B /* SpeakCopyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01EEBF4F1489BCEF0021960B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01EEBF501489BCEF0021960B /* Cocoa.framework */,
+				01EEBF6E1489BCF00021960B /* SenTestingKit.framework */,
+				01EEBF521489BCEF0021960B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01EEBF521489BCEF0021960B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01EEBF531489BCEF0021960B /* AppKit.framework */,
+				01EEBF541489BCEF0021960B /* CoreData.framework */,
+				01EEBF551489BCEF0021960B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		01EEBF561489BCEF0021960B /* SpeakCopy */ = {
+			isa = PBXGroup;
+			children = (
+				01EEBF621489BCEF0021960B /* AppDelegate.h */,
+				01EEBF631489BCEF0021960B /* AppDelegate.m */,
+				01EEBF651489BCF00021960B /* MainMenu.xib */,
+				01EEBF571489BCEF0021960B /* Supporting Files */,
+			);
+			path = SpeakCopy;
+			sourceTree = "<group>";
+		};
+		01EEBF571489BCEF0021960B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01EEBF581489BCEF0021960B /* SpeakCopy-Info.plist */,
+				01EEBF591489BCEF0021960B /* InfoPlist.strings */,
+				01EEBF5C1489BCEF0021960B /* main.m */,
+				01EEBF5E1489BCEF0021960B /* SpeakCopy-Prefix.pch */,
+				01EEBF5F1489BCEF0021960B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01EEBF731489BCF00021960B /* SpeakCopyTests */ = {
+			isa = PBXGroup;
+			children = (
+				01EEBF791489BCF00021960B /* SpeakCopyTests.h */,
+				01EEBF7A1489BCF00021960B /* SpeakCopyTests.m */,
+				01EEBF741489BCF00021960B /* Supporting Files */,
+			);
+			path = SpeakCopyTests;
+			sourceTree = "<group>";
+		};
+		01EEBF741489BCF00021960B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01EEBF751489BCF00021960B /* SpeakCopyTests-Info.plist */,
+				01EEBF761489BCF00021960B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01EEBF4B1489BCEF0021960B /* SpeakCopy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01EEBF7E1489BCF00021960B /* Build configuration list for PBXNativeTarget "SpeakCopy" */;
+			buildPhases = (
+				01EEBF481489BCEF0021960B /* Sources */,
+				01EEBF491489BCEF0021960B /* Frameworks */,
+				01EEBF4A1489BCEF0021960B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeakCopy;
+			productName = SpeakCopy;
+			productReference = 01EEBF4C1489BCEF0021960B /* SpeakCopy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01EEBF6C1489BCF00021960B /* SpeakCopyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01EEBF811489BCF00021960B /* Build configuration list for PBXNativeTarget "SpeakCopyTests" */;
+			buildPhases = (
+				01EEBF681489BCF00021960B /* Sources */,
+				01EEBF691489BCF00021960B /* Frameworks */,
+				01EEBF6A1489BCF00021960B /* Resources */,
+				01EEBF6B1489BCF00021960B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01EEBF721489BCF00021960B /* PBXTargetDependency */,
+			);
+			name = SpeakCopyTests;
+			productName = SpeakCopyTests;
+			productReference = 01EEBF6D1489BCF00021960B /* SpeakCopyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01EEBF431489BCEF0021960B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Atlantia Software";
+			};
+			buildConfigurationList = 01EEBF461489BCEF0021960B /* Build configuration list for PBXProject "SpeakCopy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 01EEBF411489BCEF0021960B;
+			productRefGroup = 01EEBF4D1489BCEF0021960B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01EEBF4B1489BCEF0021960B /* SpeakCopy */,
+				01EEBF6C1489BCF00021960B /* SpeakCopyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01EEBF4A1489BCEF0021960B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01EEBF5B1489BCEF0021960B /* InfoPlist.strings in Resources */,
+				01EEBF611489BCEF0021960B /* Credits.rtf in Resources */,
+				01EEBF671489BCF00021960B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01EEBF6A1489BCF00021960B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01EEBF781489BCF00021960B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01EEBF6B1489BCF00021960B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01EEBF481489BCEF0021960B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01EEBF5D1489BCEF0021960B /* main.m in Sources */,
+				01EEBF641489BCEF0021960B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01EEBF681489BCF00021960B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01EEBF7B1489BCF00021960B /* SpeakCopyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01EEBF721489BCF00021960B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01EEBF4B1489BCEF0021960B /* SpeakCopy */;
+			targetProxy = 01EEBF711489BCF00021960B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01EEBF591489BCEF0021960B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01EEBF5A1489BCEF0021960B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		01EEBF5F1489BCEF0021960B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01EEBF601489BCEF0021960B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		01EEBF651489BCF00021960B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01EEBF661489BCF00021960B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		01EEBF761489BCF00021960B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01EEBF771489BCF00021960B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01EEBF7C1489BCF00021960B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		01EEBF7D1489BCF00021960B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		01EEBF7F1489BCF00021960B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeakCopy/SpeakCopy-Prefix.pch";
+				INFOPLIST_FILE = "SpeakCopy/SpeakCopy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		01EEBF801489BCF00021960B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeakCopy/SpeakCopy-Prefix.pch";
+				INFOPLIST_FILE = "SpeakCopy/SpeakCopy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		01EEBF821489BCF00021960B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpeakCopy.app/Contents/MacOS/SpeakCopy";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeakCopy/SpeakCopy-Prefix.pch";
+				INFOPLIST_FILE = "SpeakCopyTests/SpeakCopyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		01EEBF831489BCF00021960B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpeakCopy.app/Contents/MacOS/SpeakCopy";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeakCopy/SpeakCopy-Prefix.pch";
+				INFOPLIST_FILE = "SpeakCopyTests/SpeakCopyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01EEBF461489BCEF0021960B /* Build configuration list for PBXProject "SpeakCopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01EEBF7C1489BCF00021960B /* Debug */,
+				01EEBF7D1489BCF00021960B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01EEBF7E1489BCF00021960B /* Build configuration list for PBXNativeTarget "SpeakCopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01EEBF7F1489BCF00021960B /* Debug */,
+				01EEBF801489BCF00021960B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01EEBF811489BCF00021960B /* Build configuration list for PBXNativeTarget "SpeakCopyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01EEBF821489BCF00021960B /* Debug */,
+				01EEBF831489BCF00021960B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01EEBF431489BCEF0021960B /* Project object */;
+}
