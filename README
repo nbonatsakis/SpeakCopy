@@ -1,0 +1,5 @@
+README file for the CopySpeak application.
+--------------------------------------------------------------------
+Mac OS X contains a very handy accessibility feature whereby a user can configure one of many synthesized voices to read whatever text is currently selected. Prior to 10.7, the feature worked by triggering a copy and then feeding the text in the clipboard to the speech synthesizer. As of 10.7 however, Apple has changed the feature to attempt the use of accessibility APIs to retrieve the text. Unfortunately, many apps do not support these APIs and based on my testing, there may be a bug in Apple's new implementation as well. Regardless, in its' current state, the feature is not usable in the vast majority of 3rd party applications. 
+
+This project represents a simple application that attempts to recreate the feature as it existed in 10.6 and earlier. The application runs headless, so it can be configured to run on startup. It currently only responds to the hotkey F+option+control, I'd like to make it configurable in future versions (assuming Apple does not address the issues with it's own version).
