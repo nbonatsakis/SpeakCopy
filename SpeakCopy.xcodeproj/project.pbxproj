@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0176D0771489BDC3006457BC /* SpeechService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0176D0761489BDC3006457BC /* SpeechService.m */; };
+		0176D07A1489D242006457BC /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0176D0791489D242006457BC /* Carbon.framework */; };
 		01EEBF511489BCEF0021960B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EEBF501489BCEF0021960B /* Cocoa.framework */; };
 		01EEBF5B1489BCEF0021960B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01EEBF591489BCEF0021960B /* InfoPlist.strings */; };
 		01EEBF5D1489BCEF0021960B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EEBF5C1489BCEF0021960B /* main.m */; };
-		01EEBF611489BCEF0021960B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 01EEBF5F1489BCEF0021960B /* Credits.rtf */; };
 		01EEBF641489BCEF0021960B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EEBF631489BCEF0021960B /* AppDelegate.m */; };
 		01EEBF671489BCF00021960B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01EEBF651489BCF00021960B /* MainMenu.xib */; };
 		01EEBF6F1489BCF00021960B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EEBF6E1489BCF00021960B /* SenTestingKit.framework */; };
@@ -30,24 +31,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0176D0751489BDC3006457BC /* SpeechService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechService.h; sourceTree = "<group>"; };
+		0176D0761489BDC3006457BC /* SpeechService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeechService.m; sourceTree = "<group>"; };
+		0176D0791489D242006457BC /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 		01EEBF4C1489BCEF0021960B /* SpeakCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01EEBF501489BCEF0021960B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		01EEBF531489BCEF0021960B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		01EEBF541489BCEF0021960B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		01EEBF551489BCEF0021960B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		01EEBF581489BCEF0021960B /* SpeakCopy-Info.plist */ = {isa = PBXFileReference; path = "SpeakCopy-Info.plist"; sourceTree = "<group>"; };
+		01EEBF581489BCEF0021960B /* SpeakCopy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeakCopy-Info.plist"; sourceTree = "<group>"; };
 		01EEBF5A1489BCEF0021960B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		01EEBF5C1489BCEF0021960B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		01EEBF5E1489BCEF0021960B /* SpeakCopy-Prefix.pch */ = {isa = PBXFileReference; path = "SpeakCopy-Prefix.pch"; sourceTree = "<group>"; };
-		01EEBF601489BCEF0021960B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		01EEBF621489BCEF0021960B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		01EEBF5E1489BCEF0021960B /* SpeakCopy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpeakCopy-Prefix.pch"; sourceTree = "<group>"; };
+		01EEBF621489BCEF0021960B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01EEBF631489BCEF0021960B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		01EEBF661489BCF00021960B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		01EEBF6D1489BCF00021960B /* SpeakCopyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeakCopyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01EEBF6E1489BCF00021960B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		01EEBF751489BCF00021960B /* SpeakCopyTests-Info.plist */ = {isa = PBXFileReference; path = "SpeakCopyTests-Info.plist"; sourceTree = "<group>"; };
+		01EEBF751489BCF00021960B /* SpeakCopyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeakCopyTests-Info.plist"; sourceTree = "<group>"; };
 		01EEBF771489BCF00021960B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		01EEBF791489BCF00021960B /* SpeakCopyTests.h */ = {isa = PBXFileReference; path = SpeakCopyTests.h; sourceTree = "<group>"; };
+		01EEBF791489BCF00021960B /* SpeakCopyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeakCopyTests.h; sourceTree = "<group>"; };
 		01EEBF7A1489BCF00021960B /* SpeakCopyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeakCopyTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0176D07A1489D242006457BC /* Carbon.framework in Frameworks */,
 				01EEBF511489BCEF0021960B /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +98,7 @@
 		01EEBF4F1489BCEF0021960B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0176D0791489D242006457BC /* Carbon.framework */,
 				01EEBF501489BCEF0021960B /* Cocoa.framework */,
 				01EEBF6E1489BCF00021960B /* SenTestingKit.framework */,
 				01EEBF521489BCEF0021960B /* Other Frameworks */,
@@ -116,6 +121,8 @@
 			children = (
 				01EEBF621489BCEF0021960B /* AppDelegate.h */,
 				01EEBF631489BCEF0021960B /* AppDelegate.m */,
+				0176D0751489BDC3006457BC /* SpeechService.h */,
+				0176D0761489BDC3006457BC /* SpeechService.m */,
 				01EEBF651489BCF00021960B /* MainMenu.xib */,
 				01EEBF571489BCEF0021960B /* Supporting Files */,
 			);
@@ -129,7 +136,6 @@
 				01EEBF591489BCEF0021960B /* InfoPlist.strings */,
 				01EEBF5C1489BCEF0021960B /* main.m */,
 				01EEBF5E1489BCEF0021960B /* SpeakCopy-Prefix.pch */,
-				01EEBF5F1489BCEF0021960B /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -225,7 +231,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				01EEBF5B1489BCEF0021960B /* InfoPlist.strings in Resources */,
-				01EEBF611489BCEF0021960B /* Credits.rtf in Resources */,
 				01EEBF671489BCF00021960B /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +268,7 @@
 			files = (
 				01EEBF5D1489BCEF0021960B /* main.m in Sources */,
 				01EEBF641489BCEF0021960B /* AppDelegate.m in Sources */,
+				0176D0771489BDC3006457BC /* SpeechService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,14 +297,6 @@
 				01EEBF5A1489BCEF0021960B /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		01EEBF5F1489BCEF0021960B /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				01EEBF601489BCEF0021960B /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		01EEBF651489BCF00021960B /* MainMenu.xib */ = {
@@ -436,6 +434,7 @@
 				01EEBF801489BCF00021960B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01EEBF811489BCF00021960B /* Build configuration list for PBXNativeTarget "SpeakCopyTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +443,7 @@
 				01EEBF831489BCF00021960B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,14 +7,17 @@
 //
 
 #import "AppDelegate.h"
+#import "SpeechService.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
+@synthesize speechService;
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
-{
-    // Insert code here to initialize your application
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    self.speechService = [[SpeechService alloc] init];
+    
+    [self.speechService startListening];
 }
 
 @end
